@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div id="app">
+    <p v-if="isPalindrome">this is a palindrome</p>
+    <p v-else>This is not a palindrome</p>
+    <input @keyup='palindromeCheck' v-model="palindrome" class="input--palindrome" placeholder = 'Palindrome here'>
+</div>
+<script src="js/vue.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

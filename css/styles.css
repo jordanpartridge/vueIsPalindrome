@@ -1,0 +1,30 @@
+.input--palindrome {
+    border-radius: 25px;
+    padding: 20px;
+    background-color: palegreen;
+    width: 500px;
+    border-color: red;
+}
+button{
+    border-radius: 10px;
+    border: 1px solid pink;
+    padding: 20px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: "Bitstream Charter";
+    font-size: 25px;
+    color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
